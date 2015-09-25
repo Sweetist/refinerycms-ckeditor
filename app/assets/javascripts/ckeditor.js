@@ -23,3 +23,4 @@ CKEDITOR.stylesSet.add( 'default',
     }
   ]
 );
+CKEDITOR.config.extraAllowedContent = 'video [*]{*}(*);source [*]{*}(*);';
