@@ -9,4 +9,5 @@ CKEDITOR.editorConfig = function( config ) {
 	// config.uiColor = '#AADC6E';
   config.toolbar = "mini";
   config.allowedContent = true;
+  extraAllowedContent: 'section article header nav aside[lang,foo]';
 };
