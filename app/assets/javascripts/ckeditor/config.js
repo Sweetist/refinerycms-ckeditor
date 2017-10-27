@@ -10,4 +10,5 @@ CKEDITOR.editorConfig = function( config ) {
   config.toolbar = "mini";
   config.allowedContent = true;
   config.extraAllowedContent = 'section article header nav aside[lang,foo]';
+  config.fillEmptyBlocks = false;
 };
